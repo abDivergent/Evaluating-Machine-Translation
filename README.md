@@ -19,10 +19,10 @@ crucial to assess these languages before applying the adaptations to other langu
 ## Features
 
 *   **Lexical Metrics:** Implementation/integration of standard string-matching metrics:
-    *   **BLEU** (Bilingual Evaluation Understudy) — measures n-gram precision.
-    *   **TER** (translation edit rate) — measures n-gram recall (useful if looking at ROUGE-L).
+    *   **BLEU** (Bilingual Evaluation Understudy) — A basic string matching metric to evaluate the difference between machine-generated translation and high-quality human translation.
+    *   **TER** (translation edit rate) — an automated measure of the amount of edits a human would have to make to make a high-quality human-translated translation.
 *   **Semantic/Embedding Metrics:** Integration of modern trained metrics like **BERTScore** or **COMET** to capture semantic similarity beyond exact word matches.
-    *   **COMET** (Crosslingual Optimized Metric for Evaluation of Translation) — includes stemming and synonym matching.
+    *   **COMET** (Crosslingual Optimized Metric for Evaluation of Translation) — For automatically evaluating the machine translation by calculating the similarity between the machine translation and a reference translation using tokens.
  
 ## Running Instructions
 
