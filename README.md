@@ -23,6 +23,8 @@ crucial to assess these languages before applying the adaptations to other langu
     *   **TER** (translation edit rate) — measures n-gram recall (useful if looking at ROUGE-L).
 *   **Semantic/Embedding Metrics:** Integration of modern trained metrics like **BERTScore** or **COMET** to capture semantic similarity beyond exact word matches.
     *   **COMET** (Crosslingual Optimized Metric for Evaluation of Translation) — includes stemming and synonym matching.
+ 
+## Running Instructions
 
 ## Project Structure
 
@@ -71,3 +73,4 @@ crucial to assess these languages before applying the adaptations to other langu
 │   └── utils.py        # Main execution script to run the evaluation
 ├── .gitignore
 └── README.md
+
