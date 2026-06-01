@@ -45,7 +45,7 @@ If you want to run it via terminal, then first thing is to create an environment
 ```console
 /opt/anaconda3/envs/comet-env/bin/python compute_metrics.py -f data/mon/gemini-nso-sentences.txt
 ```
- where "/opt/anaconda3/envs/comet-env/" needs to be your environment that has all the necessary requirements installed. Please see SETUP.md for more detail
+ where "/opt/anaconda3/envs/comet-env/" needs to be your environment that has all the necessary requirements installed. Please see [SETUP.md](SETUP.md) for more detail
 
  to run the different languages, update the language, to do this, change the language code in the command. for example:
 
