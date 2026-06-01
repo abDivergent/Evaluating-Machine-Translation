@@ -27,8 +27,8 @@ def main():
     model = load_from_checkpoint(COMET_MODEL)
 
     # Hardcoded reference and source paths (adjust if necessary)
-    src_path = '../data/mon/english_sentences.txt'
-    ref_path = '../data/mon/corrected-nso.txt'
+    src_path = 'data/mon/english_sentences.txt'
+    ref_path = 'data/mon/corrected-nso.txt'
 
     src = open(src_path, 'r', encoding='utf-8').read().splitlines()
     ref = open(ref_path, 'r', encoding='utf-8').read().splitlines()
