@@ -25,6 +25,33 @@ crucial to assess these languages before applying the adaptations to other langu
     *   **COMET** (Crosslingual Optimized Metric for Evaluation of Translation) — For automatically evaluating the machine translation by calculating the similarity between the machine translation and a reference translation using tokens.
  
 ## Running Instructions
+To run the program, one first needs to cd into the scripts directory, after cloning the repo, run the command:
+```console
+cd ./scripts
+```
+
+
+Then you need to  install dependencies. To do this, run the install command for all the requirements. This is run with the command:
+
+```console
+pip install -r requirements.txt
+```
+At the moment the code is pointing to the mon subdirectory, which is for Nso. To change the language, create your datasets, and put it in your folder in the data subdirectory, then update the paths in the code. To do this, in the compute_metrics.py file, navigate to lines 35 to 37, change the path to your source language dataset, reference dataset, and pred dataset. 
+
+Once this is done, you can run the code by clicking the play button at the top of your IDE.
+
+If you want to run it via terminal, then first thing is to create an environment and then following the same steps as above. Once the environment is created and the requirements are installed, then the following command needs to be ran:
+
+```console
+/opt/anaconda3/envs/comet-env/bin/python compute_metrics.py -l nso -s devtest
+```
+ where "/opt/anaconda3/envs/comet-env/" needs to be your environment that has all the necessary requirements installed. 
+
+ to run the different languages, update the language, to do this, change the language code in the command. for example:
+
+ ```console
+nso -> zul or tso.
+```
 
 ## Project Structure
 
